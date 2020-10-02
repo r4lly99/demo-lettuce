@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: local
+
+  cache:
+    type: redis
+  redis:
+    hostname: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 600ms
+#    sentinel:
+#      master: mymaster
+#      nodes:
+#        - 127.0.0.1:26379
+    lettuce:
+      shutdown-timeout: 200ms

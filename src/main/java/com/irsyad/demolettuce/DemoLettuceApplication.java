@@ -1,0 +1,13 @@
+package com.irsyad.demolettuce;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoLettuceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoLettuceApplication.class, args);
+	}
+
+}
